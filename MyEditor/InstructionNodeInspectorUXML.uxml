@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:VisualElement style="flex-grow: 1; height: auto;">
+        <ui:BindableElement binding-path="m_data">
+            <ui:TextField picking-mode="Ignore" label="Title" binding-path="Title" name="title" />
+            <ui:TextField picking-mode="Ignore" label="Description" binding-path="Description" name="description" password="false" />
+            <ui:Vector2Field label="Vec2 Field" name="position" binding-path="position" />
+            <ui:ListView  virtualization-method="DynamicHeight"
+                name="interactions"
+                reorder-mode="Animated"
+                binding-path="Interactions"
+                show-add-remove-footer="true"
+                show-border="true"
+                show-foldout-header="true"
+
+                header-title="Interactions"
+            />            
+        </ui:BindableElement>
+    </ui:VisualElement>
+</ui:UXML>

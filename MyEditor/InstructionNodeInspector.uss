@@ -1,0 +1,11 @@
+.container {
+    padding-top: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    flex-direction: column;
+    flex-grow: initial;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}

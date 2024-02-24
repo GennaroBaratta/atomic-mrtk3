@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/SRC/MyEditor/InstructionNodeInspector.uss?fileID=7433441132597879392&amp;guid=4bb42f68ad4f88944952ec69cbb6f0b8&amp;type=3#InstructionNodeInspector" />
+    <ui:VisualElement class="container">
+        <ui:EnumField label="Enum" type="Assets.Scripts.DataStructures.Interaction+InteractionType, DataStructures" name="InteractionTypeField" />
+    </ui:VisualElement>
+</ui:UXML>

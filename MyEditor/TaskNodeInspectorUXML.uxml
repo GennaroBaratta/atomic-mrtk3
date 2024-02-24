@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:Label text="Custom Label" display-tooltip-when-elided="true" />
+    <uie:PropertyField label="Data" binding-path="this.Data.Title" />
+</ui:UXML>
